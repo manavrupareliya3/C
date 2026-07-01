@@ -1,0 +1,13 @@
+//Print all ASCII character with their values.
+#include<stdio.h>
+void main(){
+
+    int i;
+
+    printf("value\tcharacter\n");
+
+    for(i=0;i<=255;i++)
+    {
+        printf("%d\t%c\n" ,i,i);
+    }
+}
